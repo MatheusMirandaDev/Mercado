@@ -27,7 +27,7 @@ Para compilar e executar o projeto, você precisa de:
     - Dev-C++.
     - Outro editor de sua preferência que suporte a linguagem C.
 
-## Instruções para compilar e executar:
+## Instruções Para Compilar e Executar:
 1. Clone o repositório ou baixe o código no seu ambiente local
     ```bash
     Para clonar um repositorio, bastar acessar o terminal e usar o comando:
