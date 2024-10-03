@@ -11,7 +11,7 @@ typedef struct
 {
     int codigo;    // Código único do produto
     int estoque;   // Quantidade disponível
-    char nome[50]; // Nome do produto
+    char nome[30]; // Nome do produto
     float preco;   // Preço unitário
 } Produto;
 
@@ -124,7 +124,7 @@ void cadastrarProduto()
 
     Produto novoProduto;
 
-    char codigoDigitado[50]; // Variavel para armazenar o 'codigo' como string
+    char codigoDigitado[30]; // Variavel para armazenar o 'codigo' como string
 
     printf("Crie e informe o codigo do produto: ");
     scanf("%s", codigoDigitado);
@@ -279,8 +279,8 @@ void verCarrinho()
         {
             printf("\n--- Item (%d) ---\n", i + 1);
             printf("Produto: %s\n", gCarrinho[i].produto.nome);
-            printf("Preco: R$ %.2f\n", gCarrinho[i].produto.preco);
             printf("Quantidade: %d\n", gCarrinho[i].quantidade);
+            printf("Preco total: R$ %.2f\n", gCarrinho[i].produto.preco * gCarrinho[i].quantidade);
         }
     }
     else
