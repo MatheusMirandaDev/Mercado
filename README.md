@@ -4,9 +4,9 @@ Esse projeto tem como função a criação de um sistema de mercado. O sistema t
 ## Funcionalidades Implementadas:
 O sistema coloca em prática o uso de estrutura de dados em linguagem de programação C, implementando estruturas de dados como structs, arrays e funções, além do controle de fluxo e validação das entradas do usuário.
 
-- **Cadastro de Produto:** Permite adicionar novos produtos ao sistema com um código numerico único, nome, preço e quantidade em estoque.
-- **Listar Produtos:** O sistema lista todos os produtos cadastrados com seu código, nome, preço e a quantidade que tem no estoque .
-- **Comprar Produto:** Adiciona um produto ao carrinho, através do seu codigo, adicionando a quantidade desejada e verificando o seu estoque disponível.
+- **Cadastro de Produto:** Permite adicionar novos produtos ao sistema com um código numérico único, nome, preço e quantidade em estoque.
+- **Listar Produtos:** O sistema lista todos os produtos cadastrados com seu código, nome, preço e a quantidade que tem no estoque.
+- **Comprar Produto:** Adiciona um produto ao carrinho, através do seu código, adicionando a quantidade desejada e verificando o seu estoque disponível.
 - **Ver Carrinho:** Visualiza os produtos dentro do carrinho, mostrando o seu nome, quantidade adicionada e o preço total.
 - **Fechar Pedido:** Mostra o valor total da compra, exibindo todos os produtos e a quantidade que serão comprados, atualizando o sistema da quantidade que sobra no estoque.
 - **Adicionar ao Estoque:** Permite atualizar a quantidade no estoque dos produtos.
@@ -25,10 +25,10 @@ Para compilar e executar o projeto, você precisa de:
     - VS Code.
     - Code::Blocks.
     - Dev-C++.
-    -  Outro editor de sua preferencia que suporte a linguagem C.
+    - Outro editor de sua preferência que suporte a linguagem C.
 
 ## Instruções para compilar e executar:
-1. Clone o repositorio ou baixe o codigo no seu ambiente local
+1. Clone o repositório ou baixe o código no seu ambiente local
     ```bash
     Para clonar um repositorio, bastar acessar o terminal e usar o comando:
     
@@ -39,9 +39,9 @@ Para compilar e executar o projeto, você precisa de:
     
     Ctrl + shift + s
     ```
-2. Compile o codigo seguindo o passo a passo:
+2. Compile o código seguindo o passo a passo:
     - Abra o terminal ou o prompt de comando e abra a pasta onde o arquivo foi salvo.
-    - execute o comando de compilação (exemplo para o GCC):
+    - Execute o comando de compilação (exemplo para o GCC):
     ```bash
     gcc main.c -o main
     ```
