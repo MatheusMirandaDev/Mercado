@@ -29,6 +29,16 @@ Para compilar e executar o projeto, você precisa de:
 
 ## Instruções para compilar e executar:
 1. Clone o repositorio ou baixe o codigo no seu ambiente local
+    ```bash
+    Para clonar um repositorio, bastar acessar o terminal e usar o comando:
+    
+    git clone https://github.com/M4thsmb/Mercado.git
+    ```
+    ```bash
+    Para baixar, bastar entrar no aquivo "main.c" e utilize o atalho:
+    
+    Ctrl + shift + s
+    ```
 2. Compile o codigo seguindo o passo a passo:
     - Abra o terminal ou o prompt de comando e abra a pasta onde o arquivo foi salvo.
     - execute o comando de compilação (exemplo para o GCC):
