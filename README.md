@@ -1,4 +1,4 @@
-# Sistema de Mercado 
+# Sistema de Mercado 🛒
 Esse projeto tem como função a criação de um sistema de mercado. O sistema tem como intuito realizar as operações de cadastro de produto, visualização dos produtos cadastrados, exclusão de produtos do sistema, compra de itens, remoção de produtos do carrinho, e cálculo do valor total de um pedido. 
 
 ## Funcionalidades Implementadas:
